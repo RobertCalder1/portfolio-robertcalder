@@ -1,0 +1,75 @@
+/* variables */
+
+:root {
+    /*fonts*/
+    --mono: monospace;
+    --black: black;
+    --white: white;
+}
+
+/* header element selectors */
+header {
+    margin: 2px;
+    padding: 5px;
+    text-align: left;
+    font-family: var(--mono);
+    font-size: 24px;
+    background-color: var(--black);
+    max-height: 100px;
+    position: relative;
+}
+
+header h1 {
+    color: var(--white)
+}
+header h1 .r {
+    font-size: 48px;
+    font-family: segoe script;
+    border-radius: 10px;
+    background: var(--white);
+    color: var(--black);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: 5px;
+}
+
+/* nav element selectors */
+nav {
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 1;
+    bottom: 0;
+    height: 60px;
+    width: 600px;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+/* nav class selectors */
+.about-me + .mywork {
+    border-radius: 25px;
+    background: var(--white);
+    color: var(--black);
+    position: relative;
+    min-width: 150px;
+    min-height: 50px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.contact {
+    border-radius: 25px;
+    background: var(--white);
+    color: var(--black);
+    position: relative;
+    min-width: 150px;
+    min-height: 50px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
