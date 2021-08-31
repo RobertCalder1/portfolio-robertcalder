@@ -1,10 +1,31 @@
 /* variables */
 
 :root {
-    /*fonts*/
+    /* fonts */
     --mono: monospace;
+    /* colors */
     --black: black;
     --white: white;
+}
+
+/* general element selectors */
+h2,
+h3,
+h4 {
+    font-size: 48px;
+    background-color: var(--black);
+    color: var(--white);
+    max-width: 315px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+h3 {
+    max-width: 210px;
+}
+
+h4 {
+    max-width: 185px;
 }
 
 /* header element selectors */
@@ -16,11 +37,13 @@ header {
     font-size: 24px;
     background-color: var(--black);
     max-height: 100px;
-    position: relative;
+    width: 100vw;
+    position: sticky;
 }
 
 header h1 {
-    color: var(--white)
+    color: var(--white);
+    display: inline-block;
 }
 header h1 .r {
     font-size: 48px;
@@ -40,31 +63,57 @@ nav {
     right: 0;
     top: 1;
     bottom: 0;
-    height: 60px;
+    height: 36px;
     width: 600px;
     margin-right: 50px;
     text-transform: uppercase;
 }
 
-nav ul li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-/* nav class selectors */
-.about-me, 
-.my-work, 
-.contact {
+nav a {
     border-radius: 25px;
     background: var(--white);
     color: var(--black);
     position: relative;
+    display: inline-block;
     min-width: 150px;
-    min-height: 50px;
+    min-height: 15px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    border: 5px solid white;
+    text-decoration: none;
 }
+
+/* nav class selectors */
 
 .my-work {
     min-width: 200px;
+}
+
+/* body element selectors */
+body {
+    display: inline-block;
+    position: relative;
+    top: 1;
+    left: 0;
+    right: 0;
+}
+body p {
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+/* body class selectors */
+
+.self-portrait-image {
+    min-width: 300px;
+    min-height: 300px;
+    margin-top: 20px;
+}
+.intro {
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    margin-left: 10px;
+    padding: 5px;
+
 }
