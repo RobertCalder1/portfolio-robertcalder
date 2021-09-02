@@ -142,6 +142,7 @@ body ul {
     max-width: 450px;
 }
 
+/* Media Screen adjustments */
 @media screen and (max-width: 985px) {
 
     nav {
