@@ -31,7 +31,7 @@ header {
     font-family: var(--mono);
     font-size: 24px;
     background-color: var(--black);
-    max-height: 100px;
+    max-height: 103px;
     width: 100vw;
     position: sticky;
 }
@@ -123,9 +123,12 @@ body ul {
 }
 
 .portfolio img {
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 600px;
+    max-width: 450px;
 }
-.contact-me {
-    color: var(--white);
+
+.portfolio li {
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 20px;
 }
