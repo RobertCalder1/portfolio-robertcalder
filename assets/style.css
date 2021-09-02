@@ -141,3 +141,42 @@ body ul {
     float: left;
     max-width: 450px;
 }
+
+@media screen and (max-width: 985px) {
+
+    nav {
+        top: 0;
+        right:1 ;
+        width: 25%;
+        float: right;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    nav a {
+        display: list-item;
+        font-size: 50%;
+        list-style-type: none;
+        min-width: 25%;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+        
+    }
+    
+    .my-work {
+        min-width: 25%;
+    }
+
+
+    .body {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+  
+    .body {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
