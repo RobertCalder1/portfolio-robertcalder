@@ -34,6 +34,8 @@ header {
     max-height: 103px;
     width: 100vw;
     position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 header h1 {
@@ -131,4 +133,9 @@ body ul {
     display: inline-flex;
     flex-direction: column;
     margin-right: 20px;
+}
+
+.portfolio li div {
+    float: left;
+    max-width: 450px;
 }
