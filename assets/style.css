@@ -85,16 +85,16 @@ nav a {
 }
 
 /* body element selectors */
+
+li {
+    display: inline;
+}
+
 body {
-    display: inline-block;
-    position: relative;
-    top: 1;
-    left: 0;
-    right: 0;
     background-image: url(images/website-background.jpg);
     background-repeat: no-repeat;
     background-size: auto;
-    background-
+    font-size: 18px;
 }
 body p {
     font-size: 24px;
@@ -102,12 +102,10 @@ body p {
 }
 body ul {
     list-style-type: none;
-}
-
-body ul li {
     padding: 10px;
     margin-bottom: 20px;
 }
+
 /* body class selectors */
 
 .self-portrait-image {
@@ -123,16 +121,11 @@ body ul li {
     padding: 5px;
 
 }
-.contact {
+
+.portfolio img {
+    max-height: 300px;
+    max-width: 300px;
+}
+.contact-me {
     color: var(--white);
 }
-
-.link {
-    min-width: 200px;
-    display: inline;
-}
-.link a {
-    color: greenyellow;
-    margin-inline-start: 25px;
-}
-
