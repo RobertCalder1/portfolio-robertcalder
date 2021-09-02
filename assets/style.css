@@ -111,9 +111,10 @@ body ul {
 /* body class selectors */
 
 .self-portrait-image {
-    min-width: 300px;
-    min-height: 300px;
+    max-width: 300px;
+    max-height: 300px;
     margin-top: 20px;
+    border-radius: 200px;
 }
 .intro {
     position: absolute;
